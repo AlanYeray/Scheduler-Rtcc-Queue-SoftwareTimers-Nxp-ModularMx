@@ -1,0 +1,158 @@
+---
+:source:
+  :path: test
+  :file: test_scheduler.c
+:successes:
+- :test: test_milliseconds__
+  :line: 61
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__initScheduler
+  :line: 75
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__RegisterTask
+  :line: 94
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__RegisterTask__return_0__
+  :line: 119
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__RegisterTask__registe_NULL__
+  :line: 136
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched__RegisterTask__branch__
+  :line: 154
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_stopTask
+  :line: 171
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__stopTask__return__false__
+  :line: 196
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_startTask_return_value__
+  :line: 217
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_startTask_starFlag_0__
+  :line: 238
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_startTask_starFlag_1__
+  :line: 258
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__periodTask_param__check
+  :line: 278
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__periodTask_return__false__
+  :line: 298
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__periodTask_branch__both_negative__
+  :line: 318
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_registerTimer_failed_conditions_
+  :line: 338
+  :message: ''
+  :unity_test_time: 0
+- :test: test_getTimer_return_count__
+  :line: 362
+  :message: ''
+  :unity_test_time: 0
+- :test: test_getTimer_return__0___
+  :line: 388
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_reloadTimer_return_1__
+  :line: 414
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_reloadTimer_return_0__
+  :line: 439
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startTimer__general__
+  :line: 464
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_stopTimer__general__
+  :line: 488
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_stopTimer__return_0__
+  :line: 512
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startScheduler__general__
+  :line: 537
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startTimer_branch_flag_1_
+  :line: 566
+  :message: ''
+  :unity_test_time: 0
+- :test: test_starScheduler_branch_no_timers_
+  :line: 592
+  :message: ''
+  :unity_test_time: 0
+- :test: test_starScheduler_branch_timers_flag_1_
+  :line: 618
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startScheduler__branch_use_taskFunc__
+  :line: 645
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startScheduler__branch_use_callbackPtr__
+  :line: 671
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startScheduler__branch_test_condition_split_flag_and_elapsed__
+  :line: 698
+  :message: ''
+  :unity_test_time: 0
+- :test: test_Sched_startScheduler__branch_flag_0__
+  :line: 724
+  :message: ''
+  :unity_test_time: 0
+- :test: test_xtask_500ms_
+  :line: 750
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 31
+  :passed: 31
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Init task 500 millisecond.
+- Init task 500 millisecond.
+- Init task 500 millisecond.
+- Init task 500 millisecond.
+- ''
+- 'This is a counter from task 500ms_: 0 '
+- Init task 500 millisecond.
+- Init task 500 millisecond.
+- ''
+- 'This is a counter from task 500ms_: 1 '
+- Init task 500 millisecond.
+- ''
+- 'This is a counter from task 500ms_: 2 '
+- 'This is a counter from task 500ms_: 3 '
+- 'This is a counter from task 500ms_: 4 '
+- 'This is a counter from task 500ms_: 5 '
+- 'This is a counter from task 500ms_: 6 '
+- Init task 500 millisecond.
+- ''
+- 'This is a counter from task 500ms_: 7 '
+:time: 0.2693409000057727

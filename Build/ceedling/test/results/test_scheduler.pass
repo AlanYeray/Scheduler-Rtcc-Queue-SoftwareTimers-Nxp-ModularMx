@@ -1,0 +1,42 @@
+---
+:source:
+  :path: test
+  :file: test_scheduler.c
+:successes:
+- :test: test__AppSched__initScheduler
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__RegisterTask
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_stopTask
+  :line: 53
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_startTask_return_value__
+  :line: 74
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_startTask_add_taskcount__
+  :line: 92
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched_one_startTask_startflag__
+  :line: 110
+  :message: ''
+  :unity_test_time: 0
+- :test: test__Sched__periodTask_param__check
+  :line: 127
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.021299200000157725
